@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Freelancer - Start Bootstrap Theme</title>
+  <title>Patrick Keaveney</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -41,11 +41,11 @@
 			<li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
           </li>
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#education">Education</a>
-          </li>
 		   <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#experience">Experience</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#projects">Projects</a>
+          </li> 
+		  <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#education">Education</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#skills">Skills</a>
@@ -59,19 +59,61 @@
  
   <header class="masthead bg-primary text-white text-center">
     <div class="container" id="about">
-      <img class="img-fluid mb-5 d-block mx-auto" src="img/profile.png" alt="">
+      <img class="img-fluid mb-5 d-block mx-auto" src="img/profile1.png" alt="">
       <h1 class="text-uppercase mb-0">Patrick Keaveney</h1>
       <hr class="star-light">
       <h2 class="font-weight-light mb-0">Computer Science and Information Technology at National University of Ireland Galway (NUIG)
-Currently in my final year, on track to graduate in May 2019 with a Upper Second Class (2.1).</h2>
+		Currently in my final year, on track to graduate in May 2019 with an Upper Second Class (2.1).</h2>
     </div>
   </header>
 
   <!-- Portfolio Grid Section -->
-  <section class="education" id="education">
+  <section class="portfolio" id="projects">
     <div class="container">
-      <h2 class="text-center text-uppercase text-secondary mb-0">Education</h2>
+      <h2 class="text-center text-uppercase text-secondary mb-0">Projects</h2>
       <hr class="star-dark mb-5">
+	  <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
+            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                <i class="fas fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/logo.png" alt="">
+          </a>
+        </div>
+		
+		<div class="col-md-6 col-lg-4">
+          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
+            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                <i class="fas fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/MEAN.png" alt="">
+          </a>
+        </div>
+		
+		<div class="col-md-6 col-lg-4">
+          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
+            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                <i class="fas fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/LogisticRegression.jpeg" height="280" width="280" alt="">
+          </a>
+        </div>
+	  </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="bg-primary text-white mb-0" id="education">
+    <div class="container">
+      <h2 class="text-center text-uppercase text-white">Education</h2>
+      <hr class="star-light mb-5">
       <div class="row">
         <div class="col-md-12 ">
           <h5>NATIONAL UNIVERSITY OF IRELAND, GALWAY (NUIG)
@@ -86,65 +128,33 @@ Currently in my final year, on track to graduate in May 2019 with a Upper Second
     </div>
   </section>
 
-  <!-- About Section -->
-  <section class="bg-primary text-white mb-0" id="experience">
-    <div class="container">
-      <h2 class="text-center text-uppercase text-white">Experience</h2>
-      <hr class="star-light mb-5">
-      <div class="row">
-        <div class="col-lg-4 ml-auto">
-          <p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-        </div>
-        <div class="col-lg-4 mr-auto">
-          <p class="lead">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-        </div>
-      </div>
-      <div class="text-center mt-4">
-        <a class="btn btn-xl btn-outline-light" href="#">
-          <i class="fas fa-download mr-2"></i>
-          Download Now!
-        </a>
-      </div>
-    </div>
-  </section>
-
   <!-- Contact Section -->
   <section id="skills">
-    <div class="container">
+    <div class="container" class="w-100">
       <h2 class="text-center text-uppercase text-secondary mb-0">Skills</h2>
       <hr class="star-dark mb-5">
       <div class="row">
-        <div class="col-lg-12 mx-auto">
-          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-          <ul class="list-inline list-icons">
-              
-              <li class="list-inline-item">
-              <i class="devicon-java-plain-wordmark colored"></i>
-            </li>
-              <li class="list-inline-item">
-              <i class="devicon-javascript-plain colored"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicon-html5-plain-wordmark colored"></i>
-            </li>
-              
-               <li class="list-inline-item">
-              <i class="devicon-c-plain-wordmark colored"></i>
-            </li>
-           
-            
-            
-           
-            <li class="list-inline-item">
-              <i class="devicon-css3-plain-wordmark colored"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicon-bootstrap-plain-wordmark colored"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicon-wordpress-plain-wordmark colored"></i>
-            </li>
-            
+        <div class="col-lg-12 mx-auto" >
+          <div class="subheading mb-3">Programming Languages &amp; Tools:</div>
+          <ul class="list-inline dev-icons">
+            <li class="list-inline-item" style="font-size: 5em;color:red">
+            <i class="fab fa-html5"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-css3-alt" style="font-size: 5em;color:blue"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-js-square" style="font-size: 5em;color:yellow"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-angular" style="font-size: 5em;color:red"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-node-js" style="font-size: 5em;color:green"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-java" style="font-size: 5em;color:red"></i>
+          </li>
           </ul>
         </div>
       </div>
@@ -165,23 +175,18 @@ Currently in my final year, on track to graduate in May 2019 with a Upper Second
           <ul class="list-inline mb-0">
             
             <li class="list-inline-item">
-              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                <i class="fab fa-fw fa-google-plus-g"></i>
+              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="mailto:p.keaveney2@nuigalway.ie?Subject=">
+                <i class="fas fa-envelope"></i>
               </a>
             </li>
             <li class="list-inline-item">
-              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                <i class="fab fa-fw fa-twitter"></i>
+              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://github.com/PatrickKeaveney" target="_blank">
+                <i class="fab fa-github" ></i>
               </a>
             </li>
             <li class="list-inline-item">
-              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.linkedin.com/in/patrick-keaveney-a79711131/" target="_blank">
                 <i class="fab fa-fw fa-linkedin-in"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                <i class="fab fa-fw fa-dribbble"></i>
               </a>
             </li>
           </ul>
@@ -213,6 +218,76 @@ Currently in my final year, on track to graduate in May 2019 with a Upper Second
   <!-- Custom scripts for this template -->
   <script src="js/freelancer.min.js"></script>
 
+  <!-- Portfolio Modal 1 -->
+  <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
+    <div class="portfolio-modal-dialog bg-white">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
+      </a>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-secondary text-uppercase mb-0">Electron</h2>
+            <hr class="star-dark mb-5">
+			<video width="320" height="240" controls>
+				<source src="REC Video.mp4">
+			</video>
+			<p class="mb-5">Developed a product utilising smart meters and renewable energy to create microgrids in which local users can trade green energy in the form of RECs (Renewable Energy Certificate). This reduces the users reliance on grid energy as well as benefitting the environment. 
+This product was chosen to represent our class in the Student Entrepreneur Awards.</p>
+            
+            
+            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <i class="fa fa-close"></i>
+              Close Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+	<!-- Portfolio Modal 2 -->
+  <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
+    <div class="portfolio-modal-dialog bg-white">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
+      </a>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-secondary text-uppercase mb-0">Web Application</h2>
+            <hr class="star-dark mb-5">
+            <img class="img-fluid mb-5" src="img/portfolio/cake.png" alt="">
+            <p class="mb-5">Designed a web application to act as a social hub for nightlife activity in Galway. It consisted of a news feed section, a chatroom/ message board. The application was written in HTML CSS and JavaScript. NodeJS and MONGO DB were used for server-side operations.</p>
+            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <i class="fa fa-close"></i>
+              Close Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Portfolio Modal 2 -->
+  <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
+    <div class="portfolio-modal-dialog bg-white">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
+      </a>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-secondary text-uppercase mb-0">Classification Algorithm</h2>
+            <hr class="star-dark mb-5">
+            <!--<img class="img-fluid mb-5" src="img/MEAN.png" alt="">-->
+            <p class="mb-5"> Logistic Regression classification algorithm developed using Java</p>
+			 <p><a class="mb-5" href="https://github.com/PatrickKeaveney/Machine-Learning-Assignment-3" target="_blank">https://github.com/PatrickKeaveney/Machine-Learning-Assignment-3</a></p>
+            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <i class="fa fa-close"></i>
+              Close Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
